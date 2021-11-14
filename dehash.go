@@ -11,6 +11,8 @@ import (
 	"golang.org/x/crypto/blake2b"
 	"golang.org/x/crypto/blake2s"
 	"golang.org/x/crypto/sha3"
+	"github.com/pedroalbanese/edgetk/groestl"
+	"github.com/pedroalbanese/edgetk/jh"
 
     "encoding/hex"
 )
@@ -81,6 +83,16 @@ func NewHASHCracker(algorithm string, hashString string, chars []uint8, minLen u
     case "sha3-512":
         hashFunc = func(msg []byte) []byte { 
             res := sha3.Sum512(msg) 
+            return res[:]
+        }
+    case "groestl":
+        hashFunc = func(msg []byte) []byte { 
+            res := groestl.Sum256(msg) 
+            return res[:]
+        }
+    case "jh":
+        hashFunc = func(msg []byte) []byte { 
+            res := jh.Sum256(msg) 
             return res[:]
         }
     default:
