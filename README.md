@@ -1,6 +1,6 @@
 # hash-cracker-GoLang
 
-Simple multithreading brute hash **MD5**, **SHA128**, **SHA256** and **SHA1**.
+Simple multithreading brute hash **MD5**, **SHA1**, **SHA256**, **SHA512**, **SHA3-256**, **SHA3-512**, **Blake2b256**, **Blake2b512**, **Blake2s256**, **Grøstl** and **JH**.
 
 ## Usage
     ./dehash -hash hexstring|-file path [-type sha1|sha256|sha512|md5] [-max val] [-min val] [-charset chars] [-threads num] 
