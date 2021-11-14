@@ -11,8 +11,6 @@ import (
 	"golang.org/x/crypto/blake2b"
 	"golang.org/x/crypto/blake2s"
 	"golang.org/x/crypto/sha3"
-	"github.com/pedroalbanese/edgetk/groestl"
-	"github.com/pedroalbanese/edgetk/jh"
 
     "encoding/hex"
 )
