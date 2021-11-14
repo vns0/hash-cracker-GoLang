@@ -1,4 +1,4 @@
-# Brute-force Hash Cracker
+# hash-cracker-GoLang
 
 Simple multithreading brute hash **MD5**, **SHA1**, **SHA256**, **SHA512**, **SHA3-256**, **SHA3-512**, **Blake2b256**, **Blake2b512**, **Blake2s256**, **Grøstl** and **JH**.
 
