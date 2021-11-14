@@ -1,4 +1,4 @@
-# hash-cracker-GoLang
+# Brute-force Hash Cracker
 
 Simple multithreading brute hash **MD5**, **SHA1**, **SHA256**, **SHA512**, **SHA3-256**, **SHA3-512**, **Blake2b256**, **Blake2b512**, **Blake2s256**, **Grøstl** and **JH**.
 
@@ -20,18 +20,6 @@ Simple multithreading brute hash **MD5**, **SHA1**, **SHA256**, **SHA512**, **SH
           max number of threads (default 256)
     -type string
           hash algorithm (default "sha1")
-
-
-## Setup
-Clone the repository and change the working directory:
-
-    git clone https://github.com/nikitavoryet/hash-cracker-GoLang
-    cd hash-cracker-GoLang
-
-Build and run the program:
-    
-    go build -o dehash
-    ./dehash -hash aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d -charset abcdefghijklmnopqrstuvwxyz
 
 ## Examples
 
