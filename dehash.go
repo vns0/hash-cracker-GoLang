@@ -85,16 +85,6 @@ func NewHASHCracker(algorithm string, hashString string, chars []uint8, minLen u
             res := sha3.Sum512(msg) 
             return res[:]
         }
-    case "groestl":
-        hashFunc = func(msg []byte) []byte { 
-            res := groestl.Sum256(msg) 
-            return res[:]
-        }
-    case "jh":
-        hashFunc = func(msg []byte) []byte { 
-            res := jh.Sum256(msg) 
-            return res[:]
-        }
     default:
         panic("Wrong hashing algorithm name was passed!")
     }
