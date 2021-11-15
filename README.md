@@ -12,7 +12,7 @@
     | BLAKE-2B        |     |     |     | O   | O   |Fast  |
     | BLAKE-2S        |     |     |     | O   |     |Fast  |
     | GOST94          |     |     |     | O   |     |Slow  |
-    | Grøstl          |     |     |     | O   |     |Slow  |
+    | Grøstl          |     |     |     | O   |     |Medium|
     | JH              |     |     |     | O   |     |Slow  |
     | Keccak          |     |     |     | O   | O   |Fast  |
     | MD5             | O   |     |     |     |     |Fast  |
