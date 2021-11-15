@@ -6,7 +6,7 @@
     |:----------------|:---:|:---:|:---:|:---:|:---:|:----:|
     | BLAKE-2B        |     |     |     | O   | O   |Fast  |
     | BLAKE-2S        | O   |     |     | O   |     |Fast  |
-    | GOST94    |     |     |     | O   |     |Slow  |
+    | GOST94          |     |     |     | O   |     |Slow  |
     | Grøstl          |     |     |     | O   |     |Slow  |
     | JH              |     |     |     | O   |     |Slow  |
     | Keccak          |     |     |     | O   | O   |Fast  |
@@ -18,7 +18,7 @@
     | Skein512        |     |     |     | O   | O   |Medium|
     | SM3             |     |     |     | O   |     |Fast  |
     | Streebog        |     |     |     | O   | O   |Slow  | 
-    | Tiger           |     |     | O   |     |     |Fast  | 
+    | Tiger           |     |     | O   |     |     |Medium| 
     | Whirlpool       |     |     |     |     | O   |Slow  |
     
 ## Usage
