@@ -67,22 +67,6 @@ Crack **sha1** hashes from file
     
     ./dehash -type sha1 -file ./hashes.txt
 
-## Get elapsed time
-
-Just use **time** command
-
-    $ time ./dehash -hash 2e96e89125f4c1aef797410a4bfdb32c0632ef0c
-    Start cracking hash 2e96e89125f4c1aef797410a4bfdb32c0632ef0c
-    Check mesages with length: 1 | Possible variants: 100
-    Check mesages with length: 2 | Possible variants: 10000
-    Check mesages with length: 3 | Possible variants: 1000000
-    Check mesages with length: 4 | Possible variants: 100000000
-    =========> Message: emit
-
-    real    0m29,028s
-    user    1m47,758s
-    sys 0m1,119s
-
 ## Output examples
 
 Ex. 1
