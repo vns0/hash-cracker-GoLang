@@ -1,4 +1,9 @@
 # hash-cracker-GoLang
+[![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/pedroalbanese/hash-cracker-GoLang/blob/master/LICENSE) 
+[![GoDoc](https://godoc.org/github.com/pedroalbanese/hash-cracker-GoLang?status.png)](http://godoc.org/github.com/pedroalbanese/hash-cracker-GoLang)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pedroalbanese/hash-cracker-GoLang)](https://goreportcard.com/report/github.com/pedroalbanese/hash-cracker-GoLang)
+[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/pedroalbanese/hash-cracker-GoLang)](https://golang.org)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/pedroalbanese/hash-cracker-GoLang)](https://github.com/pedroalbanese/hash-cracker-GoLang/releases)
 ### Simple multithreading bruteforce hash
 - Available algorithms:
 
