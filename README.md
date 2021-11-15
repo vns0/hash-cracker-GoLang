@@ -6,14 +6,14 @@
     |:----------------|:---:|:---:|:---:|:---:|:---:|:----:|
     | BLAKE-2B        |     |     |     | O   | O   |Fast  |
     | BLAKE-2S        | O   |     |     | O   |     |Fast  |
-    | GOST94 CryptoPro|     |     |     | O   |     |Slow  |
+    | GOST94    |     |     |     | O   |     |Slow  |
     | Grøstl          |     |     |     | O   |     |Slow  |
     | JH              |     |     |     | O   |     |Slow  |
     | Keccak          |     |     |     | O   | O   |Fast  |
-    | MD5 [Obsolete]  | O   |     |     |     |     |Fast  |
+    | MD5             | O   |     |     |     |     |Fast  |
     | RIPEMD          |     | O   |     |     |     |Fast  |
-    | SHA1 [Obsolete] |     | O   |     |     |     |Fast  |
-    | SHA2 (default)  |     |     |     | O   | O   |Fast  | 
+    | SHA1            |     | O   |     |     |     |Fast  |
+    | SHA2            |     |     |     | O   | O   |Fast  | 
     | SHA3            |     |     |     | O   | O   |Fast  |
     | Skein512        |     |     |     | O   | O   |Medium|
     | SM3             |     |     |     | O   |     |Fast  |
