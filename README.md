@@ -1,7 +1,26 @@
 # hash-cracker-GoLang
 
-Simple multithreading brute hash **MD5**, **SHA1**, **SHA256**, **SHA512**, **SHA3-256**, **SHA3-512**, **Blake2b256**, **Blake2b512**, **Blake2s256**, **Grøstl** and **JH**.
+Simple multithreading bruteforce hash:
 
+    |    Algorithm    | 128 | 160 | 192 | 256 | 512 |Performance|
+    |:----------------|:---:|:---:|:---:|:---:|:---:|:----:|
+    | BLAKE-2B        |     |     |     | O   | O   |Fast  |
+    | BLAKE-2S        | O   |     |     | O   |     |Fast  |
+    | GOST94 CryptoPro|     |     |     | O   |     |Slow  |
+    | Grøstl          |     |     |     | O   |     |Slow  |
+    | JH              |     |     |     | O   |     |Slow  |
+    | Keccak          |     |     |     | O   | O   |Fast  |
+    | MD5 [Obsolete]  | O   |     |     |     |     |Fast  |
+    | RIPEMD          |     | O   |     |     |     |Fast  |
+    | SHA1 [Obsolete] |     | O   |     |     |     |Fast  |
+    | SHA2 (default)  |     |     |     | O   | O   |Fast  | 
+    | SHA3            |     |     |     | O   | O   |Fast  |
+    | Skein512        |     |     |     | O   | O   |Medium|
+    | SM3             |     |     |     | O   |     |Fast  |
+    | Streebog        |     |     |     | O   | O   |Slow  | 
+    | Tiger           |     |     | O   |     |     |Fast  | 
+    | Whirlpool       |     |     |     |     | O   |Slow  |
+    
 ## Usage
     ./dehash -hash hexstring|-file path [-type sha1|sha256|sha512|md5] [-max val] [-min val] [-charset chars] [-threads num] 
 
