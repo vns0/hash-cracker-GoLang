@@ -4,7 +4,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/pedroalbanese/hash-cracker)](https://goreportcard.com/report/github.com/pedroalbanese/hash-cracker)
 [![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/pedroalbanese/hash-cracker)](https://golang.org)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/pedroalbanese/hash-cracker)](https://github.com/pedroalbanese/hash-cracker/releases)
-### Simple multithreading bruteforce hash
+### Simple multithreading bruteforce hash cracker written in Go
 - Available algorithms:
 
     |    Algorithm    | 128 | 160 | 192 | 256 | 512 |Performance|
