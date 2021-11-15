@@ -3,7 +3,7 @@
 Simple multithreading brute hash **MD5**, **SHA1**, **SHA256**, **SHA512**, **SHA3-256**, **SHA3-512**, **Blake2b256**, **Blake2b512**, **Blake2s256**, **Grøstl** and **JH**.
 
 ## Usage
-    ./dehash -hash hexstring|-file path [-type sha1|sha256|sha512|md5] [-max val] [-min val] [-charset chars] [-threads num] 
+    ./dehash -hash hexstring|-file path [-type md5|sha1|sha256|sha512|sha3-256|sha3-512|blake2b256|blake2b512|blake2s256|groestl|jh] [-max val] [-min val] [-charset chars] [-threads num] 
 
     Usage of ./dehash:
     -charset string
