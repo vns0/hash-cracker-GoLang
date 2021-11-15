@@ -5,7 +5,7 @@
     |    Algorithm    | 128 | 160 | 192 | 256 | 512 |Performance|
     |:----------------|:---:|:---:|:---:|:---:|:---:|:----:|
     | BLAKE-2B        |     |     |     | O   | O   |Fast  |
-    | BLAKE-2S        | O   |     |     | O   |     |Fast  |
+    | BLAKE-2S        |     |     |     | O   |     |Fast  |
     | GOST94          |     |     |     | O   |     |Slow  |
     | Grøstl          |     |     |     | O   |     |Slow  |
     | JH              |     |     |     | O   |     |Slow  |
