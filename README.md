@@ -1,6 +1,6 @@
 # hash-cracker-GoLang
 
-Simple multithreading bruteforce hash:
+- Simple multithreading bruteforce hash:
 
     |    Algorithm    | 128 | 160 | 192 | 256 | 512 |Performance|
     |:----------------|:---:|:---:|:---:|:---:|:---:|:----:|
