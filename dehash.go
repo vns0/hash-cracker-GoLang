@@ -10,9 +10,10 @@ import (
 	"fmt"
 	"golang.org/x/crypto/blake2b"
 	"golang.org/x/crypto/blake2s"
-	"golang.org/x/crypto/sha3"
 	"golang.org/x/crypto/ripemd160"
+	"golang.org/x/crypto/sha3"
 	"math"
+	"os"
 
 	"github.com/pedroalbanese/edgetk/groestl"
 	"github.com/pedroalbanese/edgetk/jh"
@@ -180,7 +181,24 @@ func NewHASHCracker(algorithm string, hashString string, chars []uint8, minLen u
 			return []byte(hash)
 		}
 	default:
-		panic("Wrong hashing algorithm name was passed!")
+		fmt.Fprintln(os.Stderr, "Wrong hashing algorithm name was passed!\n")
+		fmt.Fprintln(os.Stderr, "Available algorithms:")
+		fmt.Fprintln(os.Stderr, "   blake2b256, blake2b512, blake2s256")
+		fmt.Fprintln(os.Stderr, "   groestl")
+		fmt.Fprintln(os.Stderr, "   gost94")
+		fmt.Fprintln(os.Stderr, "   jh")
+		fmt.Fprintln(os.Stderr, "   keccak256, keccak512")
+		fmt.Fprintln(os.Stderr, "   md5")
+		fmt.Fprintln(os.Stderr, "   rmd160")
+		fmt.Fprintln(os.Stderr, "   sha1")
+		fmt.Fprintln(os.Stderr, "   sha256, sha512")
+		fmt.Fprintln(os.Stderr, "   sha3-256, sha3-512")
+		fmt.Fprintln(os.Stderr, "   skein256, skein512")
+		fmt.Fprintln(os.Stderr, "   sm3")
+		fmt.Fprintln(os.Stderr, "   streebog256, streebog512")
+		fmt.Fprintln(os.Stderr, "   tiger")
+		fmt.Fprintln(os.Stderr, "   whirlpool")
+		os.Exit(1)
 	}
 
 	return &HASHCracker{
